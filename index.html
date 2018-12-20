@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D&D Aplication form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="som">
+        <H1 id="title">D&D</H1>
+    </div>
+    <div id="back">
+        <form action="#" method="POST" id="survey-form">
+
+
+            <p id="description"> Aplication for D&D champain </p>
+
+            <div id="first">
+
+                <label id="name-label">Your Name </label>
+                <input type="text" name="Name" placeholder="Name" id="name" required>
+
+                <label id="email-label">Email </label>
+                <input type="email" name="email" placeholder="Email" id="email" required>
+
+                <label id="number-label">age</label>
+                <input type="number" name="age" min="18" max="120" placeholder="Age" id="number" required>
+
+                <label> Characther Name </label>
+                <input type="text" name="chrachter" placeholder="Character Name" id="character" required>
+            </div>
+            <div>
+                <div class="center">Class</div>
+                <select name="class" id="dropdown">
+                    <option value="Rogue">Rogue</option>
+                    <option value="class">Mage</option>
+                    <option value="class">Warlock</option>
+                    <option value="class">Monk</option>
+                    <option value="class">Thief</option>
+                </select>
+            </div>
+            <div>
+                <div class="center">Race</div>
+                <div id="race">
+                    <input type="radio" value="Human" name="race"> Human
+                    <input type="radio" value="Elf" name="race"> Elf
+                    <input type="radio" value="Half-Elf" name="race"> Half-Elf
+                    <input type="radio" value="Thifling" name="race"> Thifling
+                    <input type="radio" value="Dwarf" name="race"> Dwarf
+                    <input type="radio" value="Dragonborn" name="race"> Dragonborn
+                    <input type="radio" value="Other" name="race"> Other
+                </div>
+            </div>
+            <div>
+
+                <div class="center">Playing Style </div>
+
+                <input type="checkbox" value="Sneaky" name="Playing-style" />Sneaky <br>
+                <input type="checkbox" value="Head on" name="Playing-style" />Head on<br>
+                <input type="checkbox" value="Carefully" name="Playing-style" />Carefully<br>
+                <input type="checkbox" value="Tactical" name="Playing-style" />Tactical<br>
+                <input type="checkbox" value="Run And Gun" name="Playing-style" />Run And Gun<br>
+                <input type="checkbox" value="Depends" name="Playing-style" />Depends<br>
+
+            </div>
+            <div>
+                Backstory<br>
+                <textarea class="textareabox"></textarea>
+            </div>
+            <div>
+                <input type="reset" id="reset" class="hoover" />
+                <input type="submit" value="Send Aplication" id="submit" class="hoover">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>

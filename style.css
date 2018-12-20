@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(114, 114, 114);
+}
+
+#back {
+    background-color: #f1f1f1;
+    width: 75%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 50%;
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    font-size: 4em
+}
+
+#description {
+    font-size: 20px;
+}
+
+#first {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name {
+    display: block;
+    font-size: 15px;
+    padding: 3px;
+}
+
+#email {
+    font-size: 15px;
+    padding: 3px;
+}
+
+#number {
+    font-size: 15px;
+    padding: 3px;
+}
+
+#character {
+    font-size: 15px;
+    padding: 3px;
+}
+
+
+#dropdown {
+    padding: 3px;
+    font-size: 15px;
+}
+
+#submit {
+    background-color: greenyellow;
+    border: none;
+    width: 120px;
+    height: 30px;
+    font-weight: 700;
+    box-shadow: 1px 1px 25px 2px rgba(19, 92, 40, 0.7);
+}
+
+#reset {
+    background-color: greenyellow;
+    border: none;
+    width: 120px;
+    height: 30px;
+    font-weight: 700;
+    box-shadow: 1px 1px 25px 2px rgba(19, 92, 40, 0.7);
+}
+
+.center {
+    text-align: center;
+    font-size: 22px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+input {
+    margin: 5px;
+}
+
+.hoover:hover {
+    color: rgb(68, 8, 8);
+    font-size: 14px;
+    text-shadow: 3px 3px 25px 4px rgba(0, 0, 0, 0.7);
+}
+
+.som {
+    background-color: rgb(122, 22, 22);
+}
